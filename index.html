@@ -1,0 +1,64 @@
+<html>
+	<body>
+		
+    <div id="topblock">
+	    <header>
+		      <h1 id="title">Survey Form</h1>
+	      </header>
+    </div>
+<hr>
+		<p id="description">Please take this survey to provide feedback on your experience:</p>
+    
+    <div id="form-box">
+
+		<form id="survey-form">
+      <label id="name-label">*Name:</label>
+			<input id="name" type="text" name="name" required="" placeholder="Enter your name"><br><br>
+      
+      <label id="email-label">*Email: </label> 
+      <input id="email" type="email" name="email" required="" placeholder="Enter your email"><br><br>
+      
+      <label id="number-label">*Age: </label> 
+      <input id="number" type="number" name="age" required="" placeholder="Enter age" min="12" max="150"><br><br>
+     
+      <label id="exp-level">What is your current experience level?</label>
+      <select id="dropdown" name="exp-level">
+        <option disabled="" value="">Select your experience level</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+      <br>
+      <br>
+     
+      <label id="excitement-level">Excitement level:</label>
+        <label><input type="radio" name="exc-level" value="low"/>Low</label>
+        <label><input type="radio" name="exc-level" value="medium"/>Medium</label> 
+        <label><input type="radio" name="exc-level" value="high"/>High</label> 
+      
+      <br>
+      <br>
+      <div id="checkbox form">
+      <label for="source">Where did you hear about us?</label><br>
+        
+        <div id="checkboxes">
+           
+           <label><input type="checkbox" value="Search Engine" name="source">Search Engine</label><br>
+            <label><input type="checkbox" value="Article" name="source">Article</label><br>
+          <label><input type="checkbox" value="Friend" name="source">Friend</label>
+        
+        </div>
+        <br>
+      <div id="textinput">
+           <label id="textarea-label">Additional comments:<br>
+             <textarea id="additional-text" placeholder="Enter your comment"></textarea></label>
+        </div>
+     <div id="submit-button">
+       <button id="submit" type="submit"><strong>Submit</strong></button>
+        </div>
+   </form>
+ 
+      </div>
+			 
+	</body>
+</html>
